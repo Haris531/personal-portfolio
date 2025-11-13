@@ -9,21 +9,23 @@ import SkillSection from '../components/SkillSection'
 import { AboutMe } from '../components/AboutMe'
 import { Testemonials } from '../components/Testemonials'
 import ProjectSection from '../components/ProjectSection'
+import Achievements from '../components/Achievements'
 
 
 export default function HomePage() {
   return (
     <div>
       {/* <HeroSection />
-      <Service />
-       <About /> */}
+       <About />
+       <Service /> */}
       <MainHero />
       <AboutMe />
       <SkillSection />
-       <ProjectSection />
+      <ProjectSection />
+      <Achievements />
       <Testemonials />
-     
       <Contact />
+
 
 
     </div>
