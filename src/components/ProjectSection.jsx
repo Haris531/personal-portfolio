@@ -34,7 +34,7 @@ export default function ProjectSection() {
   ];
 
   return (
-    <section className="bg-[#E3EFFD] min-h-screen px-6 sm:px-10 md:px-16 lg:px-20 py-20">
+    <section id="projects" className="bg-[#E3EFFD] min-h-screen px-6 sm:px-10 md:px-16 lg:px-20 py-20">
       <div>
         <h2 className="text-center text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           My <span className="text-[#64A1FD]">Projects</span>

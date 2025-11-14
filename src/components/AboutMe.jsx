@@ -5,12 +5,12 @@ import { CgWebsite } from "react-icons/cg";
 export const AboutMe = () => {
     return (
         <>
-            <div className="bg-[#E3EFFD] min-h-screen flex flex-col lg:flex-row justify-center items-center px-6 py-12 space-y-8 lg:space-y-0 lg:space-x-10">
+            <div id="about" className="bg-[#E3EFFD] min-h-screen flex flex-col lg:flex-row justify-center items-center px-6 py-12 space-y-8 lg:space-y-0 lg:space-x-10">
                 <div className="bg-white w-full sm:w-3/4 md:w-2/3 lg:w-1/3 h-auto lg:h-[500px] flex flex-col justify-center items-center rounded-2xl shadow-lg p-8">
                     <img src="/images/harry.jpg" alt="Profile" className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-full mb-6 shadow-md"/>
                     <p className="text-xl sm:text-2xl font-semibold text-gray-800 mb-1">Haris Ahmad</p>
                     <p className="text-gray-500 mb-6 text-sm sm:text-base">sharisahmad8811@gmail.com</p>
-                    <button type="button" className="bg-yellow-300 text-gray-800 font-semibold px-6 py-2 sm:px-8 sm:py-3 rounded-full shadow-md hover:bg-yellow-400 transition duration-300 text-sm sm:text-base">
+                    <button type="button" className="bg-blue-500 text-gray-800 font-semibold px-6 py-2 sm:px-8 sm:py-3 rounded-full shadow-md hover:bg-blue-600 transition duration-300 text-sm sm:text-base">
                         Download CV
                     </button>
                 </div>
@@ -22,10 +22,10 @@ export const AboutMe = () => {
                             <p className="font-medium text-gray-700 text-sm sm:text-base">Open to work</p>
                         </div>
                         <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi ducimus
-                            doloremque quisquam voluptas illo aut ullam corrupti commodi non labore porro
-                            qui culpa explicabo accusantium sequi id, ex sint earum aperiam iure!
-                            Nesciunt veritatis, rem vel repellat maiores quasi inventore.
+                             I am Haris Ahmad, a passionate software engineering student with a strong
+                            interest in web development and artificial intelligence. I enjoy creating
+                            user-friendly, modern web applications and continuously learning new
+                            technologies.
                         </p>
                     </div>
                     <div className="bg-white rounded-2xl shadow-lg p-4 sm:p-6 flex flex-col justify-start">

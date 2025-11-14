@@ -46,7 +46,7 @@ const skills = [
 export default function SkillSection() {
     return (
         <>
-            <div className="min-h-screen bg-[#E3EFFD]  flex flex-col items-center justify-center px-6 py-10">
+            <div id="skills" className="min-h-screen bg-[#E3EFFD]  flex flex-col items-center justify-center px-6 py-10">
                 <h1 className="text-3xl sm:text-4xl text-gray-900 font-medium mb-4 text-center">
                     My Web Development Skills
                 </h1>

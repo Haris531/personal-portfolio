@@ -16,12 +16,12 @@ export default function Navbar() {
           Haris Ahmad
         </h1>
         <ul className="hidden sm:flex space-x-8 text-sm items-center">
-          <li><Link to="/#home" className="hover:text-blue-600 transition-colors duration-200">Home</Link></li>
-          <li><Link to="/#about" className="hover:text-blue-600 transition-colors duration-200">About</Link></li>
-          <li><Link to="/#projects" className="hover:text-blue-600 transition-colors duration-200">Projects</Link></li>
-          <li><Link to="/#skills" className="hover:text-blue-600 transition-colors duration-200">Skills</Link></li>
-          <li><Link to="/#blogs" className="hover:text-blue-600 transition-colors duration-200">Blogs</Link></li>
-          <li><Link to="/#contact" className="hover:text-blue-600 transition-colors duration-200">Contact</Link></li>
+          <li><a href="/#home" className="hover:text-blue-600 transition-colors duration-200">Home</a></li>
+          <li><a href="#about" className="hover:text-blue-600 transition-colors duration-200">About</a></li>
+          <li><a href="#skills" className="hover:text-blue-600 transition-colors duration-200">Skills</a></li>
+          <li><a href="#projects" className="hover:text-blue-600 transition-colors duration-200">Projects</a></li>
+          <li><a href="#achievements" className="hover:text-blue-600 transition-colors duration-200">Achievements</a></li>
+          <li><a href="#contact" className="hover:text-blue-600 transition-colors duration-200">Contact</a></li>
           <li>
             <button className="ml-4 bg-red-500 hover:bg-red-600 px-4 py-2 rounded-lg text-white font-semibold transition-all duration-300 shadow-sm">
               Hire Me
@@ -35,12 +35,12 @@ export default function Navbar() {
       </div>
 
       <div className={`${showNav ? "flex" : "hidden"} flex-col items-start gap-3 bg-white w-full shadow-md absolute right-0 text-black px-6 py-4 transition-all duration-300`}>
-        <li><Link to="/#home" className="hover:text-blue-600 transition-colors duration-200">Home</Link></li>
-        <li><Link to="/#about" className="hover:text-blue-600 transition-colors duration-200">About</Link></li>
-        <li><Link to="/#projects" className="hover:text-blue-600 transition-colors duration-200">Projects</Link></li>
-        <li><Link to="/#skills" className="hover:text-blue-600 transition-colors duration-200">Skills</Link></li>
-        <li><Link to="/#blogs" className="hover:text-blue-600 transition-colors duration-200">Blogs</Link></li>
-        <li><Link to="/#contact" className="hover:text-blue-600 transition-colors duration-200">Contact</Link></li>
+        <li><a href="/#home" className="hover:text-blue-600 transition-colors duration-200">Home</a></li>
+        <li><a href="#about" className="hover:text-blue-600 transition-colors duration-200">About</a></li>
+        <li><a href="/#projects" className="hover:text-blue-600 transition-colors duration-200">Projects</a></li>
+        <li><a href="/#skills" className="hover:text-blue-600 transition-colors duration-200">Skills</a></li>
+        <li><a href="#achievements" className="hover:text-blue-600 transition-colors duration-200">Achievements</a></li>
+        <li><a href="/#contact" className="hover:text-blue-600 transition-colors duration-200">Contact</a></li>
         <button className="mt-2 bg-red-500 hover:bg-red-600 px-4 py-2 rounded-lg text-white font-semibold transition-all duration-300 shadow-sm">
           Hire Me
         </button>

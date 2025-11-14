@@ -24,7 +24,7 @@ export default function Achievements() {
     ]
     return (
         <>
-            <section className="bg-[#E3EFFD] min-h-screen px-6 sm:px-10 md:px-16 lg:px-20 py-20 flex flex-col items-center">
+            <section id="achievements" className="bg-[#E3EFFD] min-h-screen px-6 sm:px-10 md:px-16 lg:px-20 py-20 flex flex-col items-center">
                 <div className="w-full max-w-6xl">
                     <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-gray-800">
                         Certifications & Achievements

@@ -14,9 +14,9 @@ export default function MainHero() {
                         className="w-36 h-36 border-2 border-[#3676FF] hover:-translate-y-1 rounded-full object-cover shadow-lg hover:shadow-xl transition-transform duration-300 "
                     />
                 </div>
-                <div className="flex flex-col gap-6 w-full ">
+                <div className="flex flex-col justify-center gap-6 w-full ">
                     <div>
-                        <h1 className="text-3xl sm:text-4xl md:text-5xl text-center font-semibold text-gray-900 leading-tight">
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl text-center font-semibold text-gray-900 max-w-xl mx-auto leading-tight">
                             Hi, I’m <span className="text-[#64A1FD]">Haris Ahmad</span> — a <span className="font-medium">Front-End Developer</span>
                         </h1>
                     </div>
@@ -52,9 +52,6 @@ export default function MainHero() {
                     </div>
                 </div>
             </div>
-
-
-
 
         </>
     )
