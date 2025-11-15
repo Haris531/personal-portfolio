@@ -7,9 +7,9 @@ import Footer from '../components/Footer'
 import MainHero from '../components/MainHero'
 import SkillSection from '../components/SkillSection'
 import { AboutMe } from '../components/AboutMe'
-import { Testemonials } from '../components/Testemonials'
 import ProjectSection from '../components/ProjectSection'
 import Achievements from '../components/Achievements'
+import { Testimonials } from '../components/Testimonials'
 
 
 export default function HomePage() {
@@ -23,7 +23,7 @@ export default function HomePage() {
       <SkillSection />
       <ProjectSection />
       <Achievements />
-      <Testemonials />
+      <Testimonials />
       <Contact />
 
     </div>

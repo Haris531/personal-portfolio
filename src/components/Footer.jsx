@@ -15,11 +15,11 @@ export default function Footer() {
                         <h1 className='text-base sm:text-lg md:text-sm font-bold text-gray-950'>HarisAhmad</h1>
                         <p className='text-gray-600 text-xs sm:text-sm font-medium mb-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, nemo.</p>
                         <div className='flex flex-row justify-start gap-x-5'>
-                            <h2 className=""><FaXTwitter size={22} className="text-gray-600 hover:text-orange-500 transition-colors duration-200" /></h2>
-                            <h2 className=""><IoLogoLinkedin size={22} className="text-gray-600 hover:text-orange-500 transition-colors duration-200"/></h2>
+                            <h2 className=""><FaXTwitter size={22} className="text-gray-600 hover:text-black transition-colors duration-200" /></h2>
+                            <h2 className=""><IoLogoLinkedin size={22} className="text-gray-600 hover:text-blue-500 transition-colors duration-200"/></h2>
                             <h2 className=""><FaInstagramSquare size={22} className="text-gray-600 hover:text-orange-500 transition-colors duration-200"/></h2>
-                            <h2 className=""><FiFacebook size={22} className="text-gray-600 hover:text-orange-500 transition-colors duration-200"/></h2>
-                            <h2 className=""><TiSocialYoutube size={22} className="text-gray-600 hover:text-orange-500 transition-colors duration-200"/></h2>
+                            <h2 className=""><FiFacebook size={22} className="text-gray-600 hover:text-blue-800 transition-colors duration-200"/></h2>
+                            <h2 className=""><TiSocialYoutube size={22} className="text-gray-600 hover:text-red-500 transition-colors duration-200"/></h2>
                         </div>
                     </div>
                     <div className='flex flex-col sm:flex-row justify-around w-full sm:w-[60%] gap-6 sm:gap-0'>

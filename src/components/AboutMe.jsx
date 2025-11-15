@@ -10,7 +10,7 @@ export const AboutMe = () => {
                     <img src="/images/harry.jpg" alt="Profile" className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-full mb-6 shadow-md"/>
                     <p className="text-xl sm:text-2xl font-semibold text-gray-800 mb-1">Haris Ahmad</p>
                     <p className="text-gray-500 mb-6 text-sm sm:text-base">sharisahmad8811@gmail.com</p>
-                    <button type="button" className="bg-blue-500 text-gray-800 font-semibold px-6 py-2 sm:px-8 sm:py-3 rounded-full shadow-md hover:bg-blue-600 transition duration-300 text-sm sm:text-base">
+                    <button type="button" className="bg-blue-500 text-black font-semibold px-6 py-2 sm:px-8 sm:py-3 rounded-full shadow-md hover:bg-blue-600 transition duration-300 text-sm sm:text-base">
                         Download CV
                     </button>
                 </div>
